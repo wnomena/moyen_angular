@@ -1,0 +1,45 @@
+section{
+    width: 100%;
+}
+.header_container{
+    padding: 0;
+    margin: 0;
+}
+
+.header_container .name_and_contact{
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+    background-color: #076eaa;
+}
+.header_container .space_between {
+    padding: 0;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3f474d;
+}
+.header_container .space_between h1{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    margin-top: 5px;
+
+}
+.header_container .space_between .display_flex_end{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.header_container .space_between .display_flex_end a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 10px;
+    color: rgb(245, 241, 241);
+}

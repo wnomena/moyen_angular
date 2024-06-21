@@ -1,13 +1,15 @@
-import { Component } from '@angular/core';
+import { Component ,OnInit} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+// import "bootstrap-icons/icons/telephone.svg"
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: "./app.component.css"
 })
 export class AppComponent {
-  title = 'first_project_with_angular';
+
 }
+
