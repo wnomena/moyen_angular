@@ -16,9 +16,8 @@ input {
     transition: 0.5s;
     width: 90%;
     margin: auto;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-input:focus {
+input:focus, input:active {
     outline: none;
     border-color: white;
     background-color: #383535;
