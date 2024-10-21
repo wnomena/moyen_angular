@@ -1,0 +1,18 @@
+{
+  "routes": [
+    "/",
+    "/admin/home",
+    "/admin/home/admin-or-member",
+    "/admin/home/admin-or-member/SubscriptionAdminAndMemberComponent",
+    "/admin/home/list-admin",
+    "/admin/home/list-of-commentary",
+    "/admin/home/list-of-member",
+    "/admin/home/list-of-parent",
+    "/change_pass",
+    "/commentary/all",
+    "/login/subscription",
+    "/login/subscription/login",
+    "/login/subscription/subscription",
+    "/text"
+  ]
+}
