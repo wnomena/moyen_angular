@@ -1,0 +1,10 @@
+.container {
+padding: 0;
+
+}
+@media screen and (max-width: 500px) {
+    app-internal-footer {
+        position: fixed;
+        bottom: 0;
+    }
+}

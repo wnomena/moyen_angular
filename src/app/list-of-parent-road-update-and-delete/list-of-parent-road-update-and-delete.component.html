@@ -1,0 +1,24 @@
+@if(!template.display) {
+    <section class="border">
+        <div><a routerLInk="admin/home/update/parent-road/0" routerLinkActive="activebutton"> Ajout</a></div>
+        <section class="d-flex flex-nowrap justify-content-around col-3 lg-3">
+            <div class="bg-transparent" *ngFor="let i of parent_road">
+                <img src="{{i.presentation_image}}" alt="{{i.name}}" srcset="">
+                <h4>Nom : {{i.name}}</h4>
+                <div class="d-flex justify-content-around">
+                    <div (click)="next(i.identifiant)" class="suivant">Suivant</div>
+                    <div (click)="modification_road(i.identifiant)" class="modifier">Modifier</div>
+                    <div (click)="delete_road(i.identifiant)" class="supprimer">Supprimer</div>
+                </div>
+            </div>
+        </section>
+        <app-internal-footer></app-internal-footer>
+    </section>
+}@else {
+    <section class="row">
+        <div class="m-auto rounded col-lg-3 bg-light">
+            <h5 class="text-center">Action irreversible, voulez vous continuer ?</h5>
+            <div class="d-flex col-12 justify-content-center gap-1 m-1"><div (click)="send_api()" class="bg-danger rounded">Continuer</div><div class="bg-success rounded"><a href="admin/home/list-of-parent" class="text-decoration-none text-light">Annuler</a></div></div>
+    </div>
+</section>
+}

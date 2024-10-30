@@ -1,0 +1,12 @@
+footer {
+    width: 100vw;
+}
+section.mb-4 {
+    margin: auto;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+svg:hover {
+    fill: #ffffff;
+}

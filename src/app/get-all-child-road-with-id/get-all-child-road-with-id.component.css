@@ -1,0 +1,8 @@
+.row .col-lg-10 .col-lg-4 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.row .col-lg-10 .col-lg-7 div h5 {
+    float: left;
+}
